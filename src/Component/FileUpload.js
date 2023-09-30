@@ -47,9 +47,7 @@ const FileUpload = () => {
     const errors = {};
     if (!firstName) {
       errors.firstName = "First name is required";
-    } else if (!/^[A-Z][a-z]*$/.test(firstName)) {
-      errors.firstName = "First letter of the  name should be capitalized";
-    }
+    } 
     if (!lastName) {
       errors.lastName = "Last name is required";
     } 
